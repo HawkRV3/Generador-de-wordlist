@@ -137,7 +137,7 @@ def guardar_diccionario(contraseñas, filename="dictionary.txt"):
     print(f"Diccionario generado con {len(contraseñas)} contraseñas y guardado en '{filename}'.")
 
 def main():
-    print("=== Herramienta de generación de contraseñas (similar a CUpp) ===")
+    print("=== Herramienta de generación de contraseñas ===")
     datos = obtener_datos()
     base_words = generar_lista_palabras(datos)
     variantes = generar_variantes(base_words)
